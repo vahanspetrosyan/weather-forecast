@@ -13,9 +13,13 @@ This application gets weather forecast by city name (using an API) and shows the
 2. Run `composer install`
 3. Run `npm install`
 4. Create .env file from .env.example
-5. Run `php artisan key:generate`
-6. Run `php artisan config:cache`
-7. Run `php artisan migrate:fresh`
+5. In the .env file specify the DB settings corresponding to your environment
+6. Run `php artisan key:generate`
+7. Run `php artisan config:cache`
+8. Run `php artisan migrate:fresh`
+
+NOTE:
+The frontend component runs on default port 3000 and the backend component runs on port 8000. Please adjust them to your environment settings if they are different.
 
 # To launch project on dev server
 1. Run `npm run dev`
